@@ -1,6 +1,5 @@
-package OrnekCozumlerim;
+package A_OrnekCozumlerim;
 
-import java.sql.Array;
 import java.util.Arrays;
 import java.util.Scanner;
 

@@ -1,5 +1,4 @@
-package TcNoUretimSorusu;
-import java.util.ArrayList;
+package B_TcNoUretimSorusu;
 import java.util.Arrays;
 import java.util.Random;
 public class TcNoUretimSorusu {

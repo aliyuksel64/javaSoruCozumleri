@@ -1,4 +1,4 @@
-package OrnekCozumlerim;
+package A_OrnekCozumlerim;
 
 public class ArraySorusu {
 
