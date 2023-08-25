@@ -19,7 +19,7 @@ public class SoruCozumu8_SimpleCalculator {
         double topsayi1= scan.nextInt();
         System.out.println("Toplama işlemi için ikinci sayıyı girin:");
         double topsayi2= scan.nextInt();
-        System.out.println("Toplama işlemi sonucu: "+topsayi1+" / "+topsayi2+" = "+topsayi1+topsayi2);
+        System.out.println("Toplama işlemi sonucu: "+topsayi1+" + "+topsayi2+" = "+(topsayi1+topsayi2));
     }
     static void cikarma() {
         System.out.println("Çıkarma işlemi için ilk sayıyı (eksilen) girin:");
@@ -33,14 +33,14 @@ public class SoruCozumu8_SimpleCalculator {
         double carpsayi1= scan.nextInt();
         System.out.println("Çarpma işlemi için ikinci sayıyı girin:");
         double carpsayi2= scan.nextInt();
-        System.out.println("Çarpma işlemi sonucu: "+carpsayi1+"*"+carpsayi2+" = "+carpsayi1*carpsayi2);
+        System.out.println("Çarpma işlemi sonucu: "+carpsayi1+" * "+carpsayi2+" = "+carpsayi1*carpsayi2);
     }
     static void bolme() {
         System.out.println("Bölme işlemi için ilk sayıyı (bölünen) girin:");
         double bolsayi1= scan.nextInt();
         System.out.println("Bölme işlemi için ikinci sayıyı (bölen) girin:");
         double bolsayi2= scan.nextInt();
-        System.out.println("Bölme işlemi sonucu: " +bolsayi1+"/"+bolsayi2+"="+bolsayi1/bolsayi2);
+        System.out.println("Bölme işlemi sonucu: " +bolsayi1+" / "+bolsayi2+" = "+bolsayi1/bolsayi2);
     }
      static void giris() {
         System.out.println("Hesap Makinesi Uygulamıza Hoş Geldiniz.\n" +
