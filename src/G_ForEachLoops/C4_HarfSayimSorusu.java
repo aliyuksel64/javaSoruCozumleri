@@ -28,7 +28,6 @@ public class C4_HarfSayimSorusu {
             System.out.println("Verdiğiniz " + harf + " harfi cümlede hiç kullanılmamıştır.");
         } else {
             System.out.println("Verdiğiniz " + harf + " harfi cümlede " + sayim + " defa kullanılmıştır.");
-
         }
     }
 }
