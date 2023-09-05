@@ -26,15 +26,21 @@ public class C1_ArraySort {
                 minDeger = arrDon[i];
             }
         }
-        System.out.println("Array'in en küçük değeri: " + minDeger + "\n" +
+        System.out.println("Array'in en küçük değeri: " + minDeger+"'dir" + "\n" +
                 "Array'in en büyük değeri: " + maxDeger + "'dir."
         );
     }
+    public static void arrWithSort(int[] arr) {
+
+        Arrays.sort(arr);
+        System.out.println("Sort ile Arrayin en küçük elemanı: "+arr[0]+"'dir.");
+        System.out.println("Sort ile Arrayin en büyük elemanı: "+arr[arr.length-1]+"'dir.");
+    }
+
     public static void main(String[] args) {
-        int [] yeni = {2,4,2,1,8,6,9,5,-6,3,9,11};
-        arrayDonduren(yeni);
-        //Array'in en küçük değeri: -6
-        // Array'in en büyük değeri: 11'dir.
+        int[] yeni = {2, 4, 2, 1, 8, 6, 9, 5, -6, 3, 9, 11};
+        arrayDonduren(yeni); // sort olmadan 2 tane for i ile yazdığım method
+
+        arrWithSort(yeni); // Soruyu sort ile çözdüğüm method
     }
 }
-
