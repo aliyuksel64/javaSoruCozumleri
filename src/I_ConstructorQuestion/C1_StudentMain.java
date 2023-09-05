@@ -20,8 +20,12 @@ public class C1_StudentMain {
   static Scanner scan = new Scanner(System.in);
 
   public static void main(String[] args) {
-    System.out.println("İsim ve soyisminizi girin: ");
-    String isim = scan.nextLine();
+    System.out.println("İsminizi girin: ");
+    String isim = scan.next();
+    isim=isim.substring(0,1).toUpperCase()+isim.substring(1);
+    System.out.println("Soyisminizi girin: ");
+    String soyisim = scan.next();
+    soyisim=soyisim.substring(0,1).toUpperCase()+soyisim.substring(1);
     System.out.println("Sınıfınızı girin: " );
     int sinif = scan.nextInt();
     System.out.println("Şubenizi girin: ");
@@ -29,8 +33,9 @@ public class C1_StudentMain {
     System.out.println("Telefon numaranızı girin: ");
     long telefon= scan.nextLong();
 
-    C2_Student ogrenciBilgileri=new C2_Student(isim,sinif,sube,telefon);
+    C2_Student ogrenciBilgileri=new C2_Student(isim,soyisim,sinif,sube,telefon);
     System.out.println(ogrenciBilgileri);
+
   }
 
 
