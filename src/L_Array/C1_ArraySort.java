@@ -13,7 +13,7 @@ public class C1_ArraySort {
         max: 6
         Ipucu: sort yöntemni kullanabilirsiniz.
      */
-    public static void arrayDonduren(int[] arrDon) {
+    public static void arrayReturner(int[] arrDon) {
         int maxDeger = arrDon[0];
         int minDeger = arrDon[0];
         for (int i = 0; i < arrDon.length; i++) {
@@ -39,7 +39,7 @@ public class C1_ArraySort {
 
     public static void main(String[] args) {
         int[] yeni = {2, 4, 2, 1, 8, 6, 9, 5, -6, 3, 9, 11};
-        arrayDonduren(yeni); // sort olmadan 2 tane for i ile yazdığım method
+        arrayReturner(yeni); // sort olmadan 2 tane for i ile yazdığım method
 
         arrWithSort(yeni); // Soruyu sort ile çözdüğüm method
     }
